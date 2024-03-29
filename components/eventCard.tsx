@@ -16,7 +16,7 @@ export default function EventCard(props: EventCardProps) {
     return (
         <div className={styles.eventCard}>
             <div className={styles.eventHeader}>
-            {/* 设置账户地址的链接 */}
+                {/* 设置账户地址的链接 */}
                 <Link href={`account/${props.walletAddress}`} style={{ color: "white" }}>
                     {/* 通过截取地址，以便更友好地展示 */}
                     <p className={styles.connectedAddress}>{truncateAddress(props.walletAddress)}</p>

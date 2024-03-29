@@ -2,6 +2,7 @@ import { useContract, useContractEvents } from "@thirdweb-dev/react"
 import { STATUS_CONTRACT_ADDRESS } from "../constants/addresses";
 import EventCard from "./eventCard";
 import React from "react";
+import styles from '../styles/Home.module.css';
 
 export default function StatusEvents() {
     const {
@@ -20,7 +21,7 @@ export default function StatusEvents() {
     );
 
     return (
-        <div>
+        <div className={styles.container} style={{ maxWidth: "500px" }}>
             {!isStatusEventsLoading && statusEvents && (
                 statusEvents.slice(0, 30).map((event, index) => (
                     <EventCard

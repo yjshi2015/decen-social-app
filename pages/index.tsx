@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <div className="{styles.statusContainer}">
           <UserStatus/>
         </div>
+        {/* 增加状态流组件 */}
         <h3>Status Feed:</h3>
         <StatusEvents />
       </div>

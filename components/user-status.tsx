@@ -32,7 +32,7 @@ export default function UserStatus() {
     }
 
     return (
-        <div className={styles.userContainer}>
+        <div className={styles.userContainer} style={{ maxWidth: "500px" }}>
             <div className={styles.statusHeader}>
                 {/* 展示当前账户地址 */}
                 <Link href={`/account/${address}`} style={{ color: "white" }}>
