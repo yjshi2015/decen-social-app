@@ -12,8 +12,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThirdwebProvider
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       activeChain={activeChain}
+      //  引入钱包组件
       supportedWallets={[
-        // smartWallet(embeddedWallet()),
         metamaskWallet(),
         coinbaseWallet(),
         walletConnect(),
