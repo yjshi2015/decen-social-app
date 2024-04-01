@@ -1801,6 +1801,11 @@
     uuid "^9.0.1"
     zod "^3.22.3"
 
+"@thirdweb-dev/chains@^0.1.85":
+  version "0.1.85"
+  resolved "https://registry.npmjs.org/@thirdweb-dev/chains/-/chains-0.1.85.tgz"
+  integrity sha512-jm3YAjYohClLsz89kLaTLxKZE9gcsElFzoW7UT9w1W5wNSFbS1L4Wq5PqlQX/XrtCGFE7xOBzPeWQ753JH2Pcg==
+
 "@thirdweb-dev/chains@0.1.81":
   version "0.1.81"
   resolved "https://registry.npmjs.org/@thirdweb-dev/chains/-/chains-0.1.81.tgz"
