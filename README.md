@@ -11,7 +11,7 @@ To run this project, you will need to add environment variables. Check the `.env
 Deploy a copy of your application to IPFS using the following command:
 
 ```bash
-yarn deploy
+yarn dev
 ```
 
 ## Learn More
