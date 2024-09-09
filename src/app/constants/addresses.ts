@@ -1,0 +1,2 @@
+// linea sepolia
+export const STATUS_CONTRACT_ADDRESS = '0x88Df1aaf3F58594A45903bfbb63ceEc74453E997';

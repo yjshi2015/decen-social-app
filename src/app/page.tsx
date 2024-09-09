@@ -4,6 +4,8 @@ import Image from "next/image";
 import { ConnectButton } from "thirdweb/react";
 import thirdwebIcon from "@public/thirdweb.svg";
 import { client } from "./client";
+import UserStatus from "./components/user-status";
+import StatusEvents from "./components/statusEvents";
 
 export default function Home() {
   return (
@@ -20,6 +22,13 @@ export default function Home() {
             }}
           />
         </div>
+
+        <div className="{styles.statusContainer}">
+          <UserStatus/>
+        </div>
+        {/* 增加状态流组件 */}
+        <h3>Status Feed:</h3>
+        <StatusEvents />
 
         <ThirdwebResources />
       </div>
